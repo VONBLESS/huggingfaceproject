@@ -1,0 +1,198 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Saptarishee Laskar}} & Email: \href{mailto:}{saptarishee@gmail.com}\\
+  \href{https://www.linkedin.com/in/saptarishee/}{Linkedin: Saptarishee Laskar} & Mobile:~~~+91-9321452817 \\
+  \href{https://github.com/VONBLESS?tab=repositories}{Github: ~~github.com/VONBLESS} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+    {Akamai Technologies India Pvt Ltd}{Remote}
+    {Software Developer in Test}{April 2025 -- Present}
+    \resumeItemListStart
+        \resumeItem{AWS Infrastructure Provisioning \& Automation}
+            {Designed and maintained a Terraform-driven AWS platform spanning 2 accounts and 5 regions, comprising 10 VPCs, 10 public subnets, and 500 private subnets (100 per VPC). Provisioned 425 EC2 instances (85 per region) across 4 types, along with 75 PaaS resources—achieving an optimized 85/15 compute–PaaS split.}
+
+        \resumeSubItem{Linode Metrics Monitoring System}
+    {Developed a Django-based monitoring platform for Linode instances, tracking CPU and memory usage at component, container, and pod levels. Implemented a scheduled cron job running every 3 hours to generate summary reports and flag components exceeding 90\% CPU usage. Built a dedicated section for restart logs, providing insights into the causes of instance restarts.}
+
+        \resumeSubItem{Linode HA Component Testing on Azure}
+    {Performed high-availability testing across replica and pod levels, validating fault tolerance and failover scenarios. Conducted network-level, storage class, and connection limit testing to ensure resilience and scalability of workloads deployed on Azure infrastructure.}
+
+    \resumeItemListEnd
+
+% Merkle Science Experience
+\resumeSubheading
+    {MERKLE SCIENCE BENGALURU}{Hybrid}
+    {Python Developer Backend (Jr. BE Developer)}{March 2024 - September 2024}
+    \resumeItemListStart
+        \resumeItem{Service Development and Bug Fixes}
+            {Developed and maintained RESTful APIs using Django and Django REST Framework. Integrated PostgreSQL as the backend and implemented scheduled tasks using Celery and cron jobs. Wrote unit tests with Pytest for code reliability.}
+        \resumeItem{Blockchain Application}
+            {Contributed to a product application built on Django REST Framework, using custom libraries to track, monitor, and update blockchain transactions.}
+        \resumeItem{Impact}
+            {Managed three environments—demo, production, and test—for seamless deployment and scalability. Reduced operational costs by 30\% by replacing a paid service with an in-house solution. Improved API performance by 20\%, reducing transaction update times, and lowered failure rates by 15\%.}
+    \resumeItemListEnd
+
+% ONGC Videsh Limited Experience
+\resumeSubheading
+    {ONGC VIDESH LIMITED SUCURSAL COLOMBIA}{On-site}
+    {Service Developer (Part-time, Contractual)}{June 2023 - July 2023}
+    \resumeItemListStart
+        \resumeItem{New Invoice Management System}
+            {Designed and implemented a system to manage large databases for vendors and intenders exchanging bills and work orders, ensuring efficient communication and processing.}
+        \resumeItem{Technical Stack}
+            {Built a Python-based service using Flask and FastAPI, hosted on AWS with an AWS RDS (SQL-based) backend for handling high-volume data.}
+        \resumeItem{Impact}
+            {Automated repetitive tasks, reducing IT Department workload by 40\%. Improved invoice processing time by 50\% and minimized errors, reducing disputes by 20\%.}
+    \resumeItemListEnd
+
+% ETEK International Experience
+\resumeSubheading
+    {ETEK INTERNATIONAL SUCURSAL COLOMBIA}{Remote}
+    {Website Designer (Part-time)}{May 2023 - June 2023}
+    \resumeItemListStart
+        \resumeItem{Website Redesign}
+            {Revamped the ETEK website with a modern UI/UX design, enhancing user-friendly navigation and accessibility.}
+        \resumeItem{Impact}
+            {Increased user engagement by 25\% and improved website performance with a 30\% reduction in load times.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+\section{Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages and Tools}{~~~~~~Python, C++, C, SQL, Docker, GIT, PostgreSQL, MySQL, Snort, MatLab}
+	\resumeSubItem{Technology/Frameworks}{~~~~Terraform, AWS cli, Cuda, Django, Flask, Apache Spark, Hadoop, OpenVPN, DRF, celery}
+	\resumeSubItem{Platforms}{~~~~~~~Linux, Web, Linode, Windows, Raspberry, AWS, OpenStack, AdobeXD, AdobePhotoShop}
+	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Writing, Public Speaking, Time Management, Team Management}
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+%-----------PROJECTS-----------------
+% \vspace{-5pt}
+\section{Personal Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{Scamazon - A windows shopping app} {Developed a user-friendly Windows application resembling Amazon using Python, Tkinter, Pillow, and MySQL. Enabled users to buy, sell, and review products effortlessly, offering a seamless shopping experience.
+}
+\vspace{2pt}
+\resumeSubItem{Social - A Social Media App }{Built a dynamic web application similar to Facebook using Python, FastAPI, SQL, HTML, CSS, and Java. Designed and implemented REST APIs for social networking features, including posts, comments, and friend requests.}
+\vspace{2pt}
+\resumeSubItem{Weather data from gateway node to Cloud VM running on openstack}{Designed a web-based weather data monitoring system between a gateway node and a Cloud VM on OpenStack. Enabled real-time data analysis for specific regions, capable of processing thousands of data points concurrently.}
+\vspace{2pt}
+\resumeSubItem{Hacker News}{Created a scalable web application mimicking Hacker News, with features such as user authentication, nested threaded comments, post ranking via upvotes, responsive design, search, pagination, and real-time updates.}
+\vspace{2pt}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information Technology}{Prayagraj, India}
+      {Bachelor of Technology - Information Technology;  GPA: 8.10}{July 2020 - June 2024}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Relevant Courses:} OS, DSA, Analysis Of Algorithms, Cloud and Edge Computing, Machine Learning, Networking, Databases}}}
+    \resumeSubHeadingListEnd
+    \vspace{-15pt}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {DAV School, Kharghar}{NaviMumbai, India}
+      {Higher Secondary Certificate;  CBSE Percentage: 95.2}{July 2019 - June 2020}
+    \resumeSubHeadingListEnd
+\vspace{-5pt}
+% %-----------Awards-----------------
+% \section{Certificate and Awards}
+% \begin{description}[font=$\bullet$]
+% \item {Certificate of Internship in ONGC Videsh Limited}
+% \vspace{-5pt}
+% \item {Certificate of Internship in Etek International Sucursal Colombia }
+% \vspace{-5pt}
+% \item {Certificate of Internship on Artificial Intelligence}
+% \end{description}
+
+% \vspace{-5pt}
+\end{document}

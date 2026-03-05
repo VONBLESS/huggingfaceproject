@@ -1,0 +1,6 @@
+diffusers>=0.30.0
+transformers>=4.45.0
+accelerate>=0.34.0
+safetensors>=0.4.0
+pyserial>=3.5
+yfinance>=0.2.54

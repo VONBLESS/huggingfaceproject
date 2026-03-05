@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated media/output
+out/
+frames_debug/
+*.mp4
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# Secrets and env
+.env
+.env.*
+
+# Logs
+*.log
