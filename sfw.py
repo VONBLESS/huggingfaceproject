@@ -33,4 +33,4 @@ image = pipe(
     generator=torch.Generator("cuda").manual_seed(1234)
 ).images[0]
 
-image.save("nsfw_realistic.png")
+image.save("sfw_realistic.png")

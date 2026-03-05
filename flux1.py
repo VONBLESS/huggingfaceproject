@@ -9,7 +9,7 @@ pipe.enable_model_cpu_offload() #save some VRAM by offloading the model to CPU. 
 
 prompt = (
     "Ultra-realistic full-body portrait of an adult woman standing barefoot in a golden meadow at sunset, "
-    "nude but posed tastefully with soft silk draped around her hips and over one shoulder, "
+    "but posed tastefully with soft silk draped around her hips and over one shoulder, "
     "long auburn hair with loose waves catching the warm light, emerald eyes, porcelain skin with natural texture, "
     "gentle breeze moving her hair and the tall grass, golden-hour rim light, shallow depth of field, "
     "85mm lens look, f/1.8, high dynamic range, subtle film grain, serene expression, "
