@@ -7,7 +7,7 @@ pipe = Lumina2Pipeline.from_pretrained(
 ).to("cuda")  # Use full GPU
 
 prompt = (
-    "A stunning whole nude woman with big tits, whole body to be displayed and porcelain skin"
+    "A stunning woman, whole body to be displayed and porcelain skin"
 )
 
 pipe.safety_checker = None
